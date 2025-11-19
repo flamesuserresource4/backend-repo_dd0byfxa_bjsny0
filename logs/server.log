@@ -1,0 +1,15 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [284] using StatReload
+/home/workspace/main.py:83: UserWarning: Field name "schema" in "SchemaOut" shadows an attribute in parent "BaseModel"
+  class SchemaOut(BaseModel):
+INFO:     Started server process [286]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:40840 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:53474 - "GET /api/patients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53466 - "GET /api/appointments HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53466 - "GET /api/patients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53466 - "GET /api/patients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53736 - "OPTIONS /api/symptom-check HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53736 - "POST /api/symptom-check HTTP/1.1" 200 OK
